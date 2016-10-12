@@ -3,10 +3,23 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "server": "rnws start"
   },
   "dependencies": {
     "react": "15.3.2",
     "react-native": "0.34.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "react-native-css-loader": "^1.0.2",
+    "react-native-webpack-server": "^0.9.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
