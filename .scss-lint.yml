@@ -1,0 +1,11 @@
+linters:
+  Comment:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  ColorVariable:
+    enabled: false
+  SelectorFormat:
+    enabled: false
+  NameFormat:
+    enabled: false

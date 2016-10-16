@@ -1,0 +1,47 @@
+// Main sass file
+/**
+ * Notes:
+ * - All rules must be classes
+ * - All sizes must just be numbers (i.e. 10 not 10px)
+ */
+
+// Vars
+$actionButtonSize: 30;
+
+.container {
+  flex: 1;
+  background-color: #212121;
+ }
+
+.title {
+  color: #fff;
+  font-size: 40;
+  font-family: designerblock;
+  text-align: center;
+  margin: 12;
+ }
+
+.actionButtons {
+  flex: 2;
+  flex-direction: row;
+  margin-top: 5;
+}
+
+.actionButtonLine {
+  background-color: #fff;
+  height: 2;
+  width: 18;
+  margin: 10;
+}
+
+%actionButton {
+  height: $actionButtonSize;
+  width: $actionButtonSize;
+  margin: 10;
+  margin-top: -4;
+}
+
+.actionButtonSettings {
+  @extend %actionButton;
+  background-color: #2ecc71;
+}
