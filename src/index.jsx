@@ -7,7 +7,7 @@ import {
   View
 } from 'react-native';
 
-export class Blockbreaker extends Component {
+class Blockbreaker extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -37,3 +37,4 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+AppRegistry.registerComponent('Blockbreaker', () => Blockbreaker);

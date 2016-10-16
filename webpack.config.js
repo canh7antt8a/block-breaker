@@ -3,13 +3,13 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  context: __dirname,
+  debug: true,
+  devtool: 'source-map',
   entry: {
-    'index.android': './index.android.js',
-    'index.ios': './index.ios.js'
+    'index.android': './src/index.jsx',
+    'index.ios': './src/index.jsx'
   },
   output: {
-    publicPath: '/',
     path: path.resolve(__dirname, 'build'),
     filename: '[name].js',
   },
@@ -17,15 +17,10 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx$/,
-        include: [
-          path.resolve(__dirname, 'src')
-        ],
-        exclude: /node_modules/,
         loaders: ['babel']
       },
       {
         test: /\.js$/,
-        exclude: /node_modules/,
         loaders: ['babel']
       },
       {
