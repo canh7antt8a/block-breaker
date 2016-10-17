@@ -9,3 +9,5 @@ linters:
     enabled: false
   NameFormat:
     enabled: false
+  LeadingZero:
+    enabled: false

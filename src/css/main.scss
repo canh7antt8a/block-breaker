@@ -7,6 +7,10 @@
 
 // Vars
 $actionButtonSize: 30;
+$actionDailyChallenge: #4caf50;
+$actionWheel: #0277bd;
+$actionSettings: #f57f17;
+$actionShop: #f44336;
 
 .container {
   flex: 1;
@@ -16,7 +20,7 @@ $actionButtonSize: 30;
 .title {
   color: #fff;
   font-size: 40;
-  font-family: designerblock;
+  font-family: DesignerBlock;
   text-align: center;
   margin: 12;
  }
@@ -25,13 +29,14 @@ $actionButtonSize: 30;
   flex: 2;
   flex-direction: row;
   margin-top: 5;
+  padding-left: 3;
 }
 
 .actionButtonLine {
   background-color: #fff;
   height: 2;
   width: 18;
-  margin: 10;
+  margin: 10.5;
 }
 
 %actionButton {
@@ -39,9 +44,35 @@ $actionButtonSize: 30;
   width: $actionButtonSize;
   margin: 10;
   margin-top: -4;
+  align-items: center;
+  flex: 1;
+  padding-top: 3;
+  padding-right: 1;
+}
+
+.actionButtonDailyChallenge {
+  @extend %actionButton;
+  background-color: $actionDailyChallenge;
+  // Custom styles
+  padding-top: 2.99;
+  padding-right: 0.2;
+}
+
+.actionButtonWheel {
+  @extend %actionButton;
+  background-color: $actionWheel;
+  // Custom styles
+  padding-right: 0.3;
+}
+
+.actionButtonShop {
+  @extend %actionButton;
+  background-color: $actionShop;
+  // Custom styles
+  padding-right: 3;
 }
 
 .actionButtonSettings {
   @extend %actionButton;
-  background-color: #2ecc71;
+  background-color: $actionSettings;
 }

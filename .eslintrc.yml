@@ -7,4 +7,7 @@ plugins:
 rules:
   react/prefer-stateless-function: 0
   comma-dangle: 0
+  max-len: 0
+  no-unused-vars: 1
+  quotes: 0
   semi: 1
