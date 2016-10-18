@@ -1,4 +1,4 @@
-package com.blockbreaker;
+package org.supercandy.blockbreaker;
 
 import com.facebook.react.ReactActivity;
 

@@ -1,4 +1,4 @@
-package com.blockbreaker;
+package org.supercandy.blockbreaker;
 
 import android.app.Application;
 import android.util.Log;

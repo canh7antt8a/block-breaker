@@ -17,6 +17,11 @@ $actionShop: #f44336;
   background-color: #212121;
  }
 
+.background-image {
+  flex: 1;
+  resize-mode: cover;
+}
+
 .title {
   color: #fff;
   font-size: 40;
@@ -75,4 +80,23 @@ $actionShop: #f44336;
 .actionButtonSettings {
   @extend %actionButton;
   background-color: $actionSettings;
+}
+
+.playContainer {
+  flex: 3;
+  align-items: center;
+  margin-top: 85;
+}
+
+.gameModes {
+  flex: 4;
+  align-items: center;
+  margin-top: 140;
+}
+
+.gameModesText {
+  font-size: 30;
+  color: #fff;
+  background-color: #e67e22;
+  padding: 10 50;
 }

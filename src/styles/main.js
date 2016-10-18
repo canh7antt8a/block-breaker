@@ -3,6 +3,10 @@ module.exports ={
         "flex": 1,
         "backgroundColor": "#212121"
     },
+    "background-image": {
+        "flex": 1,
+        "resizeMode": "cover"
+    },
     "title": {
         "color": "#fff",
         "fontSize": 40,
@@ -79,5 +83,24 @@ module.exports ={
         "paddingTop": 3,
         "paddingRight": 1,
         "backgroundColor": "#f57f17"
+    },
+    "playContainer": {
+        "flex": 3,
+        "alignItems": "center",
+        "marginTop": 85
+    },
+    "gameModes": {
+        "flex": 4,
+        "alignItems": "center",
+        "marginTop": 140
+    },
+    "gameModesText": {
+        "fontSize": 30,
+        "color": "#fff",
+        "backgroundColor": "#e67e22",
+        "paddingTop": 10,
+        "paddingBottom": 10,
+        "paddingRight": 50,
+        "paddingLeft": 50
     }
 }

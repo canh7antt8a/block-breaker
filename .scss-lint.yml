@@ -11,3 +11,5 @@ linters:
     enabled: false
   LeadingZero:
     enabled: false
+  PropertySpelling:
+    enabled: false
