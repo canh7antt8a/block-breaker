@@ -82,12 +82,26 @@ module.exports ={
         "flex": 1,
         "paddingTop": 3,
         "paddingRight": 1,
-        "backgroundColor": "#f57f17"
+        "backgroundColor": "#ffa000"
     },
     "playContainer": {
         "flex": 3,
         "alignItems": "center",
         "marginTop": 85
+    },
+    "playSquare": {
+        "borderStyle": "solid",
+        "borderWidth": 1,
+        "borderColor": "#8D6E63",
+        "height": 160,
+        "width": 160,
+        "alignItems": "center",
+        "paddingTop": 13,
+        "paddingLeft": 4
+    },
+    "playIcon": {
+        "marginTop": -135,
+        "marginLeft": 8
     },
     "gameModes": {
         "flex": 4,
@@ -97,7 +111,7 @@ module.exports ={
     "gameModesText": {
         "fontSize": 30,
         "color": "#fff",
-        "backgroundColor": "#e67e22",
+        "backgroundColor": "#d84315",
         "paddingTop": 10,
         "paddingBottom": 10,
         "paddingRight": 50,

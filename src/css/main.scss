@@ -9,7 +9,7 @@
 $actionButtonSize: 30;
 $actionDailyChallenge: #4caf50;
 $actionWheel: #0277bd;
-$actionSettings: #f57f17;
+$actionSettings: #ffa000;
 $actionShop: #f44336;
 
 .container {
@@ -88,6 +88,22 @@ $actionShop: #f44336;
   margin-top: 85;
 }
 
+.playSquare {
+  border-style: solid;
+  border-width: 1;
+  border-color: #8D6E63;
+  height: 160;
+  width: 160;
+  align-items: center;
+  padding-top: 13;
+  padding-left: 4.5;
+}
+
+.playIcon {
+  margin-top: -135;
+  margin-left: 8;
+}
+
 .gameModes {
   flex: 4;
   align-items: center;
@@ -97,6 +113,6 @@ $actionShop: #f44336;
 .gameModesText {
   font-size: 30;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #d84315;
   padding: 10 50;
 }
