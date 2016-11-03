@@ -54,19 +54,26 @@ export class PlayButton extends Component {
     });
     return (
       <View
-        style={styles.playContainer}
+        style={/* Object.assign(*/styles.playContainer/* , {
+          transform: [
+            { translateX: this.state.moveValue }
+          ]
+        })*/}
       >
         <Animated.View
           style={
             Object.assign(styles.playSquare, {
               transform: [
-                { rotate: spin },
+                { rotate: spin }
               ]
             })
           }
         >
         </Animated.View>
-        <TouchableOpacity style={styles.playIcon} onPress={this.onIconPress}>
+        <TouchableOpacity
+          style={styles.playIcon}
+          onPress={this.onIconPress}
+        >
           {play}
         </TouchableOpacity>
       </View>

@@ -92,7 +92,7 @@ module.exports ={
     "playSquare": {
         "borderStyle": "solid",
         "borderWidth": 1,
-        "borderColor": "#8D6E63",
+        "borderColor": "#8d6e63",
         "height": 160,
         "width": 160,
         "alignItems": "center",
