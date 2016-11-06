@@ -87,20 +87,10 @@ module.exports ={
     "playContainer": {
         "flex": 3,
         "alignItems": "center",
-        "marginTop": 85
-    },
-    "playSquare": {
-        "borderStyle": "solid",
-        "borderWidth": 1,
-        "borderColor": "#8d6e63",
-        "height": 160,
-        "width": 160,
-        "alignItems": "center",
-        "paddingTop": 13,
-        "paddingLeft": 4
+        "marginTop": 125,
+        "height": 43
     },
     "playIcon": {
-        "marginTop": -135,
         "marginLeft": 8
     },
     "gameModes": {
@@ -115,6 +105,7 @@ module.exports ={
         "paddingTop": 10,
         "paddingBottom": 10,
         "paddingRight": 50,
-        "paddingLeft": 50
+        "paddingLeft": 50,
+        "marginTop": -20
     }
 }

@@ -85,22 +85,11 @@ $actionShop: #f44336;
 .playContainer {
   flex: 3;
   align-items: center;
-  margin-top: 85;
-}
-
-.playSquare {
-  border-style: solid;
-  border-width: 1;
-  border-color: #8d6e63;
-  height: 160;
-  width: 160;
-  align-items: center;
-  padding-top: 13;
-  padding-left: 4.5;
+  margin-top: 125;
+  height: 43;
 }
 
 .playIcon {
-  margin-top: -135;
   margin-left: 8;
 }
 
@@ -115,4 +104,5 @@ $actionShop: #f44336;
   color: #fff;
   background-color: #d84315;
   padding: 10 50;
+  margin-top: -20;
 }
